@@ -1,0 +1,11 @@
+gopher:
+  grpc:
+    server:
+      port:
+        8081
+      tls:
+        cert:
+        key:
+      connectTimeout: 120
+      log:
+        disable: false
